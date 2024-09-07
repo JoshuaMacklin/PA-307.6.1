@@ -1,0 +1,53 @@
+body {
+    display: flex;
+}
+
+.thebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 150px; 
+    height: 150px;
+}
+
+.iconholder {
+    display: flex;
+    height: 150px;
+    width: 100vh;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 50vh;
+    display: flex;
+    width: 50vh;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formbox {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.customcard {
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.chart, .chartbox {
+    width: 100%;
+}
