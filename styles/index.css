@@ -50,13 +50,18 @@ h1 {
 
 .chart{
     width: 100%;
+    padding: 2em;
 }
 
 .chartbox {
     width: 100%;
     height: min-content;
+    margin: 2em;
 }
 
-h2 {
-    margin-top: 48px;
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
